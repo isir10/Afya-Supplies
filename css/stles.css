@@ -1,0 +1,28 @@
+.nav-link{
+    color: black ;
+}
+.navbar-light{
+    background-color: rgb(6, 81, 131);
+}
+h1{
+    text-align: center;
+    font-size: 10ch;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(197, 58, 8);
+}
+#contact h2{
+    text-align: center;
+}
+#contact{
+    color: black;
+}
+
+#contactdetails h2{
+    text-align: left;
+    text-decoration: rgb(7, 111, 160);
+}
+.footer{
+    padding-top: 5%;
+}
