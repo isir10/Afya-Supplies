@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 120px;
+    height: 90px;
+    float: left;
+
+}
+.nav-link{
+    color: black ;
+}
+.navbar-light{
+    background-color: rgb(136, 233, 250);
+}
