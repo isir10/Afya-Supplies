@@ -27,10 +27,13 @@ h1{
     padding-top: 5%;
 }
 .small-img-group{
+    margin: auto;
     display: flex;
     justify-content: space-between;
+    background: white;
 }
 .small-img-col{
     flex-basis: 24%;
     cursor: pointer;
+    background: rgb(255, 255, 255);
 }
