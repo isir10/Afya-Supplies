@@ -37,3 +37,6 @@ h1{
     cursor: pointer;
     background: rgb(255, 255, 255);
 }
+.buy-button {
+    background: rgb(31, 86, 131);
+}
