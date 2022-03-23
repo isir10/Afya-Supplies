@@ -1,14 +1,11 @@
 h1{
     text-align: center;
-    font-size: 15nc;
-    font-family: fantasy;
     font-weight: bolder;
     font-style: oblique;
 }
-body{
-    
+h2{
+    text-align: center;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.surge{
-    height: 24ch;
-    background-repeat: no-repeat;
-}
+
