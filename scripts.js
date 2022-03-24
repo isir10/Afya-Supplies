@@ -1,4 +1,21 @@
+function total(value1, value2, value3, value4, value5, value6){
+  this.value1 = value1;
+  this.value2 = value2;
+  this.value3 = value3;
+  this.value4 = value4;
+  this.value5 = value5;
+  this.value6 = value6;
+  
+}
+
+
+
+
 let myArray = []
+
+price.prototype.Fullprice() = function(){
+  return this.value1 + this.value2 
+}
 
 
 
@@ -17,37 +34,38 @@ $(document).ready(function(){
         event.preventDefault();
         var value2 = parseInt($("#value2").val());
         var coronaP = 400000 * value2;
+        alert(coronaP)
         
         
-        
-
     })
     $("#btn3").click(function(event){
       event.preventDefault();
       var value3 = parseInt($("#value3").val());
-      var coronaP = 600000 * value3;
+      var screeningP = 600000 * value3;
+      alert(screeningP)
 
     })
 
     $("#btn4").click(function(event){
       event.preventDefault();
       var value4 = parseInt($("#value4").val());
-      var coronaP = 300000 * value4;
+      var opthalmicP = 300000 * value4;
+        alert(opthalmicP)
 
     })
 
     $("#btn5").click(function(event){
       event.preventDefault();
       var value5 = parseInt($("#value5").val());
-      var coronaP = 200000 * valu5;
-
+      var electricP = 200000 * valu5;
+        alert(electricP)
     })
 
     $("#btn6").click(function(event){
       event.preventDefault();
       var value6 = parseInt($("#value6").val());
-      var coronaP = 100000 * value6;
-
+      var ledP = 100000 * value6;
+        alert(ledP)
     })
       
       // var robot = 900000
