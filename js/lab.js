@@ -97,3 +97,25 @@ $("#image6").click(function(){
   })
 
 });
+
+
+let myForm = document.getElementById("new");
+myForm.addEventListener("submit", (e) =>{
+  e.preventDefault()
+
+  let formData =new FormData(e.target)
+  let fullName = document.getElementById("fname").value
+  // alert("djddsa")
+  let myEmail = document.getElementById("email").value
+  // alert(myEmail)
+  
+
+});
+$(document).ready(function(){
+  $(".button").click(function(event){
+    event.preventDefault();
+    let myProduct = $(".head").text
+    // alert(myProduct)
+    console.log(myProduct)
+  })
+})
