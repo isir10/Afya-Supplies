@@ -18,3 +18,10 @@ html{
 .navbar-light{
     background-color: rgb(136, 233, 250);
 }
+.image{
+    height: 20vh;
+    width: 25vw;
+}
+.para{
+    color: blue;
+}
