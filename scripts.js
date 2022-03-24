@@ -1,24 +1,20 @@
-function total(value1, value2, value3, value4, value5, value6){
-  this.value1 = value1;
-  this.value2 = value2;
-  this.value3 = value3;
-  this.value4 = value4;
-  this.value5 = value5;
-  this.value6 = value6;
+//buisness logic
+function total(robotP, coronaP, screeningP, opthalmicP, electricP, ledP){
+  this.robotP = robotP;
+  this.coronaP = coronaP;
+  this.screeningP = screeningP;
+  this.opthalmicP = opthalmicP ;
+  this.electricP= electricP;
+  this.ledP = ledP;
   
 }
 
 
+// total.prototype.Fullprice() = function(){
+//   return this.robotP + this.coronaP + this.screeningP + this.opthalmicP + this.electricP + this.ledP
+// }
 
-
-let myArray = []
-
-price.prototype.Fullprice() = function(){
-  return this.value1 + this.value2 
-}
-
-
-
+//user interface
 
 $(document).ready(function(){
     $("#btn1").click(function(event){
@@ -68,37 +64,12 @@ $(document).ready(function(){
         alert(ledP)
     })
       
-      // var robot = 900000
-      // var value1 = parseInt($("#value1").val());
-      //   var robotAmount = robot * value1 
-
-      //   var corona = 400000
-      //   var value2 = parseInt($("#value2").val());
-      //     var coronaAmount = robot * value1 
-  
-
-      //     var screening = 600000
-      //     var value3 = parseInt($("#value3").val());
-      //       var screeningAmount = robot * value1 
-    
-
-      //       var opthalmic = 300000
-      //       var value4 = parseInt($("#value4").val());
-      //         var opthalmicAmount = robot * value1 
-      
-
-      //         var electric = 200000
-      //         var value5 = parseInt($("#value5").val());
-      //           var electricAmount = robot * value1 
-        
-      //           var led = 100000
-      //           var value6 = parseInt($("#value6").val());
-      //             var ledAmount = robot * value1 
-          
+     
 
 
 
 
+// let Total = new total((robotP, coronaP, screeningP, opthalmicP, electricP, ledP))
 
 
 
