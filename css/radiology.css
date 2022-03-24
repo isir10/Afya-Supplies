@@ -20,8 +20,9 @@ html{
 }
 .image{
     height: 20vh;
-    width: 25vw;
+    width: 20vw;
 }
 .para{
     color: blue;
+    font-size: 20px;
 }
