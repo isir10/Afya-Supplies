@@ -26,3 +26,8 @@ html{
     color: blue;
     font-size: 20px;
 }
+.image:hover{
+    cursor: pointer;
+    animation: move-up 0.5s linear;
+    transform: translateY(-20px);
+}
