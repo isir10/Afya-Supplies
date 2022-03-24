@@ -42,6 +42,17 @@ h1{
 }
 #h1{
     color: blue;
-    font-size: 100;
+    font-size: 75;
     font-style: oblique;
+}
+.small-Img-group{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+.small-Img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
 }
