@@ -10,9 +10,7 @@ function total(robotP, coronaP, screeningP, opthalmicP, electricP, ledP){
 }
 
 
-// total.prototype.Fullprice() = function(){
-//   return this.robotP + this.coronaP + this.screeningP + this.opthalmicP + this.electricP + this.ledP
-// }
+
 
 //user interface
 
@@ -69,9 +67,11 @@ $(document).ready(function(){
 
 
 
-// let Total = new total((robotP, coronaP, screeningP, opthalmicP, electricP, ledP))
+// let Total = new total((robotP, + coronaP, + screeningP, + opthalmicP, + electricP, + ledP))
 
-
+// total.prototype.Fullprice() = function(){
+//   return this.robotP + this.coronaP + this.screeningP + this.opthalmicP + this.electricP + this.ledP
+// }
 
 
 
