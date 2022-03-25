@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 120px;
+    height: 90px;
+    float: left;
+
+}
+.nav-link{
+    color: black ;
+}
+.navbar-light{
+    background-color: rgb(136, 233, 250);
+}
+
+.lab{
+    text-align: center;
+    margin-top: 20px;
+
+}
+ .details{
+    display: none;
+}
+
+.img img,.img1 img,.img2 img,.img3 img,.img4 img,.img5 img,.img6 img,.img7 img,.img8 img{
+   
+    height: 50%;
+    width: 50%;
+   
+} 
+.col{
+    text-align: center;
+
+}
+
+
+.small-img-group{
+    margin: auto;
+    display: flex;
+    background: white;
+
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+}
+input#input{
+    width: 30%;
+}
+
+.dproduct,.dproduct1,.dproduct2,.dproduct3,.dproduct4,.dproduct5,.dproduct6,.dproduct7,.dproduct8{
+    display: none;
+    text-align: center;
+
+}
+#detail{
+    margin-top: 80px;
+}
+#stop:hover{
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.05); 
+
+}
+.img{
+    margin-top: 150px;
+    
+ }
+
+button.button{
+    margin-top: 20px;
+    background-color:   rgb(136, 233, 250);
+    
+}
+a{
+    color: black;
+}
+/* form */
+#form h3{
+    text-align: center;
+}
+#form label{
+    font-weight: bold;
+    margin-left: 200px;
+
+}
+#form input{
+    /* font-weight: bold; */
+    margin-left: 200px;
+
+
+}
+#form textarea{
+    font-weight: bold;
+    margin-left: 200px;
+}
+#form{
+    background-color:  rgb(136, 233, 250);
+    display: none;
+    margin-top: 50px;
+}
+.table{
+    margin-left: 250px;
+    /* display: none; */
+}
+input[type="submit"]{
+    margin-right: 100px;
+}

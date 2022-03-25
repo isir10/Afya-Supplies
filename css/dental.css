@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 120px;
+    height: 90px;
+    float: left;
+
+}
+.nav-link{
+    color: black ;
+}
+.navbar-light{
+    background-color: rgb(136, 233, 250);
+}
+
+.lab{
+    text-align: center;
+    margin-top: 20px;
+
+}
+ .details{
+    display: none;
+}
+
+
+.img img,.img1 img,.img2 img{
+   
+    height: 80%;
+    width: 80%;
+   
+} 
+.col{
+    text-align: center;
+
+}
+
+
+.small-img-group{
+    margin: auto;
+    display: flex;
+    background: white;
+
+}
+.img{
+   margin-top: 150px;
+   
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+}
+#detail>input#input{
+    width: 40%;
+}
+input#input{
+    width: 30%;
+}
+.dproduct,.dproduct1,.dproduct2,.dproduct3{
+    display: none;
+    text-align: center;
+}
+
+
+#detail{
+    margin-top: 80px;
+}
+#stop:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05); 
+
+}
+
+#form h3{
+    text-align: center;
+}
+#form label{
+    font-weight: bold;
+    margin-left: 200px;
+
+}
+#form input{
+    /* font-weight: bold; */
+    margin-left: 200px;
+
+
+}
+#form textarea{
+    font-weight: bold;
+    margin-left: 200px;
+}
+#form{
+    background-color:  rgb(136, 233, 250);
+}
+button.button{
+    margin-top: 20px;
+    background-color:   rgb(136, 233, 250);
+    
+}
+a{
+    color: black;
+}
+.table{
+    margin-left: 250px;
+    /* display: none; */
+}
+input[type="submit"]{
+    margin-right: 100px;
+}
+#form{
+    display: none;
+    margin-top: 20px;
+}
