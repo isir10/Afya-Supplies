@@ -88,7 +88,7 @@ $(document).ready(function(){
     let myQuantity = $("#input").val()
     // alert(myQuantity)
     let totalCost = myPrice*myQuantity;
-    $(".table").append('<tr id="tab"><td id="item">'+ myProductName + '</td><td id="price">' + myPrice + '</td><td id="quantity">' + myQuantity + '</td><td id="total">' + totalCost + '</td></tr>')
+    $(".table").append('<tr id="tab"><td id="item">'+ myProductName + '</td><td id="price">' + myPrice + '</td><td id="quantity">' + myQuantity + '</td><td id="total">' + totalCost + '</td></tr>');
     // alert(totalCost)
     $(".button").hide()
     $("#form").show();
@@ -142,7 +142,7 @@ $(document).ready(function(){
         
         // else {
         //     alert("Please fill in the details for delivery!");
-        //     // $(".userdeliver").show();
+        //     
             
         //   }
       })

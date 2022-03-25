@@ -106,6 +106,7 @@ a{
 #form{
     background-color:  rgb(136, 233, 250);
     display: none;
+    margin-top: 50px;
 }
 .table{
     margin-left: 250px;
